@@ -1,7 +1,7 @@
 # Odk Collect for IOS
 GIC Collect compatible with (Open Data Kit) ODK Collect for IOS
 
-This is our port of the open data kit collect for IOS. Most of the functions are availalble. The forms developed for odk for android should work almost without changes. At least that's our objective. We have been developing and testing this port for quite some time. We try to be at least 80% compatible with the odk collect for android.
+This is our port of the open data kit collect for IOS. Most of the functions are available. The forms developed for odk for android should work mostly without changes. We have been developing and testing this port for quite some time. We try to be at least 80% compatible with the odk collect for android.
 
 We plan to open source this port eventually. We want to improve first our compatibility with the odk and then make a review of the code to make sure it's up to a nice standard for public publishing.
 
