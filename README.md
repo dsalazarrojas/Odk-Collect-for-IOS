@@ -30,6 +30,12 @@ https://es.surveymonkey.com/r/9HJHDR2
 
 # Our professional services
 
+We can help you with:
+
+- Customizations to the IOS or ODK Collect apps.
+- Installation of servers.
+- Creation and/or customization of any survey for the IOS or ODK Collect apps.
+
 We are a company with experience making changes to existing surveys, developing new ones and making changes to the android version and will be able to also make changes to the ios version as well. Let us know if you need any custom work or functions on either of those two platforms. We will be happy to help you. Contact us at dsalazar@gic.mx for anything related to customizations to the ios or android versions of collect.
 
 
