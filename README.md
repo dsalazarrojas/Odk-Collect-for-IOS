@@ -19,7 +19,8 @@ We still consider this a beta version. Please let us know of any bugs you find w
 Please contact me in any one of the methods below if you have questions or comments. If you'd like to review the app please drop me a line and I'll shoot you a promo code. Other than that, please enjoy the app!
 
 Email: dsalazar@gic.mx
-LinkedIn: linkedin.com/in/daniel-salazar-0009742  
+
+LinkedIn: https://linkedin.com/in/daniel-salazar-0009742  
 
 # New features and requests
 
