@@ -14,6 +14,10 @@ Please let us know of any bugs you find when you test your forms. Also please se
 - Languages english and spanish
 - Usage for the main cases. If you are a heavy or pro user or an NGO, Government, School, University or any other institution that needs to use this app please contact us with your needs and we'll try to help you any way we can.
 
+# Download the app from the apple store
+
+https://apps.apple.com/mx/app/gic-collect/id1485932698
+
 # Contact
 
 Please contact me in any one of the methods below if you have questions or comments. If you'd like to review the app please drop me a line and I'll shoot you a promo code. Other than that, please enjoy the app!
