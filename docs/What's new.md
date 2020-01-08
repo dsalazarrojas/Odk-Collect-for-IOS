@@ -1,5 +1,10 @@
 # What’s new
 
+# Version 1.0.9 
+
+- Fix memory loss that caused the app to crash
+- Minor fixes and optimizations
+
 # Version 1.0.6
 
 - Fixed memory loss that caused the app to crash.
