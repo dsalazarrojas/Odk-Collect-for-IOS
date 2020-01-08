@@ -1,5 +1,4 @@
-# Odk Collect for IOS
-GIC Collect for IOS compatible with (Open Data Kit) ODK Collect 
+# GIC Collect for IOS compatible with (Open Data Kit) ODK Collect 
 
 # Contact Us
 
