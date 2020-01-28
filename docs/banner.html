@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<title>GIC Collect banner</title>
+<script type="text/javascript">
+  var imageUrls = [
+       "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/Need%20help%20with%20odk%20programming%20banner.jpg"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/Need%20help%20with%20your%20form%20design.jpg"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/Need%20special%20features%20on%20odk.jpg"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/Need%20special%20features%20on%20the%20odk%20banner.jpg"
+  ];
+ var imageLinks = [
+       "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+       , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+  ];
+
+  function getImageHtmlCode() {
+    var dataIndex = Math.floor(Math.random() * imageUrls.length);
+    var img = '<a href=\"' + imageLinks[dataIndex] + '"><img src="';        
+    img += imageUrls[dataIndex];
+    img += '\" alt=\”GIC Collect\”/></a>';
+    return img;
+  }
+</script>
+</head>
+<body bgcolor="white">
+<script type="text/javascript">
+  document.write(getImageHtmlCode());
+</script>
+</body>
+</html>
