@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>All metadata gic</h:title>
+    <model>
+      <instance>
+        <all-metadata-gic id="all-metadata-gic" version="2020012101">
+          <formhub>
+            <uuid/>
+          </formhub>
+          <intro/>
+          <val_start/>
+          <val_end/>
+          <val_today/>
+          <val_deviceid/>
+          <val_subscriberid/>
+          <val_simserial/>
+          <val_phonenumber/>
+          <val_username/>
+          <val_email/>
+          <showMetadata/>
+          <meta>
+            <audit/>
+            <instanceID/>
+          </meta>
+        </all-metadata-gic>
+      </instance>
+      <bind nodeset="/all-metadata-gic/intro" readonly="true()" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/all-metadata-gic/val_start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/all-metadata-gic/val_end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/all-metadata-gic/val_today" type="date"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/all-metadata-gic/val_deviceid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="subscriberid" nodeset="/all-metadata-gic/val_subscriberid" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="simserial" nodeset="/all-metadata-gic/val_simserial" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/all-metadata-gic/val_phonenumber" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="username" nodeset="/all-metadata-gic/val_username" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="email" nodeset="/all-metadata-gic/val_email" type="string"/>
+      <bind nodeset="/all-metadata-gic/showMetadata" readonly="true()" type="string"/>
+      <bind nodeset="/all-metadata-gic/meta/audit" type="binary"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/all-metadata-gic/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="'7bb9583faf0e41b4a4503a1c17c84e05'" nodeset="/all-metadata-gic/formhub/uuid" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/all-metadata-gic/intro">
+      <label># GIC Collect 1.0.14
+
+### Metadata
+
+The following metadata work, except those in italics and in parentheses and depending on your device and carrier some might not be recordable (\*)
+
+- start
+- end
+- today
+- deviceid (\*)
+- subscriberid (\*)
+- simserial (\*)
+- phonenumber (\*)
+- username
+- *(email, audit)* 
+
+![](file:///giclogo.png)
+
+# .
+## .</label>
+    </input>
+    <input ref="/all-metadata-gic/showMetadata">
+      <label> start: <output value=" /all-metadata-gic/val_start "/> &lt;br&gt;
+end: <output value=" /all-metadata-gic/val_end "/> &lt;br&gt;
+today: <output value=" /all-metadata-gic/val_today "/> &lt;br&gt;
+deviceid: <output value=" /all-metadata-gic/val_deviceid "/> &lt;br&gt;
+subscriberid: <output value=" /all-metadata-gic/val_subscriberid "/> &lt;br&gt;
+simserial: <output value=" /all-metadata-gic/val_simserial "/> &lt;br&gt;
+phonenumber: <output value=" /all-metadata-gic/val_phonenumber "/> &lt;br&gt;
+username: <output value=" /all-metadata-gic/val_username "/> &lt;br&gt;
+email: <output value=" /all-metadata-gic/val_email "/> &lt;br&gt;
+audit: <output value=" /all-metadata-gic/meta/audit "/> </label></input>
+  </h:body>
+</h:html>

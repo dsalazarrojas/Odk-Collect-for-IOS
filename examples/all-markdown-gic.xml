@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>All markdown gic</h:title>
+    <model>
+      <instance>
+        <all-markdown-gic id="all-markdown-gic" version="202001301509">
+          <formhub>
+            <uuid/>
+          </formhub>
+          <intro/>
+          <TestDocument2/>
+          <IntroNote/>
+          <gicPage1/>
+          <two/>
+          <three/>
+          <four/>
+          <fiveI/>
+          <six/>
+          <seven/>
+          <eight/>
+          <gicPage3/>
+          <gicPage4/>
+          <gicPage5/>
+          <nine/>
+          <ten/>
+          <eleven/>
+          <thirteen/>
+          <fourteen/>
+          <fourteen1/>
+          <gicPage6/>
+          <gicPage7/>
+          <gicPage8/>
+          <gicPageF9/>
+          <gicPageI9/>
+          <gicPage10/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </all-markdown-gic>
+      </instance>
+      <bind nodeset="/all-markdown-gic/intro" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/TestDocument2" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/IntroNote" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPage1" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/two" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/three" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/four" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/fiveI" type="select1"/>
+      <bind nodeset="/all-markdown-gic/six" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/seven" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/eight" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPage3" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPage4" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPage5" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/nine" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/ten" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/eleven" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/thirteen" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/fourteen" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/fourteen1" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPage6" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPage7" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPage8" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPageF9" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPageI9" readonly="true()" type="string"/>
+      <bind nodeset="/all-markdown-gic/gicPage10" readonly="true()" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/all-markdown-gic/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="'176b169ee79d4a9bbe6d8d5a646f8a39'" nodeset="/all-markdown-gic/formhub/uuid" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/all-markdown-gic/intro">
+      <label># GIC Collect 1.0.14
+
+### Markdown
+
+This is the current status of the markdown implementation.
+
+The following markdown tags work at label, hint and options, except those in italics and in parentheses:
+
+- Headings
+- Font colors
+- Choices label formatting
+- Cursive text
+- New Lines
+- Emphasis bold
+- Emphasis italic
+- Emphasis bold and italic
+- Underline italic
+- Monospace
+- Clickable link
+- Bullets in a title
+- A combinacion of several formatting
+- Hint formatting
+- Blockquotes
+- Nested blockquotes
+- Unordered lists
+- Local Image
+- Remote image
+- Quick url and email
+
+![](file:///giclogo.png)
+
+# .
+## .</label>
+    </input>
+    <input ref="/all-markdown-gic/TestDocument2">
+      <label># Test Document
+### About
+
+This is our port of the open data kit collect for IOS. Most of the functions are available. The forms developed for odk should work mostly without changes. We have been developing and testing this port for quite some time.
+
+Objectives for this version
+- Large compatibility of forms with ODK Collect
+- Connect for upload and download of data and forms to ODK Aggregate
+- Languages english and spanish
+- Usage for the main cases. If you are a heavy or pro user or an NGO, Government, School, University or any other institution that needs to use this app please contact us with your needs and we'll try to help you any way we can.
+
+### Contact
+
+Please contact me in any one of the methods below if you have questions or comments. If you'd like to review the app please drop me a line and I'll shoot you a promo code. Other than that, please enjoy the app!
+
+Email: &lt;mailto://collect@gic.mx&gt; &lt;br&gt;
+
+Linkedln: [Daniel Salazar](https://linkedin.com/in/daniel-salazar-0009742)
+
+![Gic](file:///giclogo.png)
+
+# .
+# .</label>
+    </input>
+    <input ref="/all-markdown-gic/IntroNote">
+      <label># -&lt;span style=&quot;color:red&quot;&gt;Introduction&lt;/span&gt;</label>
+      <hint>Formatting can be used for labels and hints to change the presentation of ODK Collect,&lt;br&gt;&lt;br&gt;This example was created using XLSForms.These examples show the effect of formatting in the **Label** and the syntax used is shown in the **Hint** . Both Markdown and or HTML have been used.&lt;br&gt;&lt;br&gt;The formatting used on this page will be demonstrated in the following examples. &lt;br&gt;&lt;br&gt;**IMPORTANT** in the following examples a&amp;nbsp;&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;&amp;nbsp; or \\ symbols are placed before the actual Markdown syntax to stop it having effect; remove all of the &amp;nbsp;&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;&amp;nbsp;or \\ symbols in the actual code!</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPage1">
+      <label># Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6</label>
+      <hint>&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;# Heading level 1 &lt;br&gt;
+&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;## Heading level 2 &lt;br&gt;
+&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;### Heading level 3 &lt;br&gt;
+&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;#### Heading level 4 &lt;br&gt;
+&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;##### Heading level 5 &lt;br&gt;
+&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;###### Heading level 6</hint>
+    </input>
+    <input ref="/all-markdown-gic/two">
+      <label>###### Going Small</label>
+      <hint>&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;###### Going Small&lt;br&gt;&lt;br&gt;the number of hashes used reduces the size.</hint>
+    </input>
+    <input ref="/all-markdown-gic/three">
+      <label>Going&amp;nbsp;&lt;span style=&quot;color:red&quot;&gt;red&lt;/span&gt;</label>
+      <hint>&lt;br&gt;Going &lt;*span style=&quot;color:red&quot;&gt;red&lt;*/span&gt;</hint>
+    </input>
+    <input ref="/all-markdown-gic/four">
+      <label>Going&amp;nbsp;&lt;span style=&quot;color:green&quot;&gt;green&lt;/span&gt;</label>
+      <hint>&lt;br&gt;Going &lt;*span style=&quot;color:green&quot;&gt;green&lt;*/span&gt; &lt;br&gt;&lt;br&gt;You can try this with other colours; most primary colours should work.</hint>
+    </input>
+    <select1 ref="/all-markdown-gic/fiveI">
+      <label>Formatting works on labels for Choices also</label>
+      <item>
+        <label>&lt;span style=&quot;color:green&quot;&gt;Yes&lt;/span&gt;</label>
+        <value>yes</value>
+      </item>
+      <item>
+        <label>&lt;span style=&quot;color:red&quot;&gt;No&lt;/span&gt;</label>
+        <value>no</value>
+      </item>
+    </select1>
+    <input ref="/all-markdown-gic/six">
+      <label>&lt;span style=&quot;font-family:cursive&quot;&gt;Cursive text&lt;/span&gt;</label>
+      <hint>&lt;br&gt;&lt;*span style=&quot;font-family:cursive&quot;&gt;Cursive text&lt;*/span&gt;</hint>
+    </input>
+    <input ref="/all-markdown-gic/seven">
+      <label># &lt;span style=&quot;font-family:cursive&quot;&gt;Large cursive text&lt;/span&gt;</label>
+      <hint>&lt;br&gt;&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;# &lt;*span style=&quot;font-family:cursive&quot;&gt;Large cursive text&lt;*/span&gt; &lt;br&gt;&lt;br&gt;You can combine formatting; here Markdown for LARGE has been combined with HTML for CURSIVE.</hint>
+    </input>
+    <input ref="/all-markdown-gic/eight">
+      <label>New&lt;br&gt;&lt;br&gt;Lines
+
+A new line also works</label>
+      <hint>&lt;br&gt;New&lt;*br&gt;&lt;*br&gt;Lines
+
+A new line also works
+ &lt;br&gt;&lt;br&gt;This formatting has been used in many of the preceeding examples already.</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPage3">
+      <label># Emphasis - Bold
+
+This example can be appreciated in the hint, because the label is already bold.</label>
+      <hint>I just love **bold text**. &lt;br&gt; Love **is** bold 
+&lt;br&gt; 
+I just love \*\*bold 
+text\*\*. &lt;*br&gt; Love \*\*is\*\* bold 
+
+Add two asterisks or underscores before and after a word or phrase.</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPage4">
+      <label># Emphasis - Italics
+
+Italicized text is the *cat's meow*. 
+A *cat* meow
+
+This example can be appreciated in the label, because the hint is already Italic.</label>
+      <hint>&lt;br&gt; Italicized text is the \*cat's meow\*. &lt;*br&gt; A \*cat\* meow
+&lt;br&gt;Add one asterisk or underscore before and after a word or phrase.</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPage5">
+      <label># Emphasis - Bold and italic
+
+This example can be appreciated in the hint.</label>
+      <hint>&lt;br&gt; This text is ***really important***. &lt;br&gt;
+This text is \*\*\*really important\*\*\*.
+&lt;br&gt;
+Add three asterisks or underscores before and after a word or phrase.</hint>
+    </input>
+    <input ref="/all-markdown-gic/nine">
+      <label>&lt;u&gt;Underline&lt;/u&gt;&amp;nbsp;&lt;i&gt;Italic&lt;/i&gt;</label>
+      <hint>&lt;br&gt;&lt;*u&gt;Underline&lt;*/u&gt; &lt;*i&gt;Italic&lt;*/i&gt;&lt;br&gt;&lt;br&gt;Two HTML examples of some basic formatting.</hint>
+    </input>
+    <input ref="/all-markdown-gic/ten">
+      <label>&lt;span style=&quot;font-family:monospace&quot;&gt;Using Monospace font&lt;/span&gt;</label>
+      <hint>&lt;br&gt;&lt;*span style=&quot;font-family:monospace&quot;&gt;Using Monospace font&lt;*/span&gt; &lt;br&gt;&lt;br&gt;This will work for fonts that are supported by your device, so use with care.</hint>
+    </input>
+    <input ref="/all-markdown-gic/eleven">
+      <label>[clickable link](https://nafundi.com/blog/posts/customize-odk-forms-with-fonts-colors-sizes-and-links/)</label>
+      <hint>&lt;br&gt;&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;[clickable link]&lt;span style=&quot;color:red&quot;&gt;~&lt;/span&gt;(https://nafundi.com/blog/posts/customize-odk-forms-with-fonts-colors-sizes-and-links/) &lt;br&gt;&lt;br&gt;A lot of the examples shown here have been taken directly from the great resource provided by Nafundi, so it's only right that when demonstrating a clickable link, the link is back to their resource.</hint>
+    </input>
+    <input ref="/all-markdown-gic/thirteen">
+      <label>..*Bullets&lt;br&gt;..*In a title?</label>
+      <hint>&lt;br&gt;..*Bullets&lt;*br&gt;..In a title?</hint>
+    </input>
+    <input ref="/all-markdown-gic/fourteen">
+      <label>&lt;span style=&quot;color:red&quot;&gt;P&lt;/span&gt;&lt;span style=&quot;color:green&quot;&gt;u&lt;/span&gt;&lt;span style=&quot;color:yellow&quot;&gt;tt&lt;/span&gt;&lt;span style=&quot;color:blue&quot;&gt;ing&lt;/span&gt; &amp;nbsp; &lt;span style=&quot;font-family:cursive&quot;&gt; &amp;nbsp; IT &amp;nbsp; &lt;/span&gt; &amp;nbsp; *all* &amp;nbsp; &lt;br&gt; &lt;u&gt; to &lt;span style=&quot;color:red&quot;&gt; get &lt;/span&gt; &lt;/u&gt; &lt;span style=&quot;color:blue&quot;&gt; her &lt;/span&gt;</label>
+      <hint>&lt;br&gt;&lt;*span style=&quot;color:red&quot;&gt;P&lt;*/span&gt;&lt;*span style=&quot;color:green&quot;&gt;u&lt;*/span&gt;&lt;*span style=&quot;color:yellow&quot;&gt;tt&lt;*/span&gt;&lt;*span style=&quot;color:blue&quot;&gt;&lt;*i&gt;ing&lt;*/span&gt;&lt;*/i&gt; &lt;*span style=&quot;font-family:cursive&quot;&gt;IT&lt;*/span&gt;*all* &lt;*br&gt;&lt;*u&gt;to&lt;*span style=&quot;color:red&quot;&gt;get&lt;*/span&gt;&lt;*span style=&quot;color:ble&quot;&gt;&lt;*/u&gt;her&lt;*/span&gt; &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Too much?</hint>
+    </input>
+    <input ref="/all-markdown-gic/fourteen1">
+      <label>Formatting in hints works also</label>
+      <hint>&lt;span style=&quot;font-family:cursive&quot;&gt;As Shown &lt;/span&gt; &amp;nbsp; &lt;span style=&quot;color:red&quot;&gt;here&lt;/span&gt;</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPage6">
+      <label>&gt; Blockquotes</label>
+      <hint>\&gt;Blockquotes
+
+To create a blockquote add a &gt; in front of a paragraph.</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPage7">
+      <label>&gt; Blockquotes &lt;br&gt; &gt;&gt; Nested blockquote</label>
+      <hint>\&gt; Blockquotes &lt;*br&gt; &amp;nbsp; \&gt;\&gt; Nested blockquote
+
+Add a &amp;nbsp; &gt;&gt; &amp;nbsp; in front of the paragraph you want to nest</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPage8">
+      <label>Unordered lists</label>
+      <hint>Whatever &lt;br&gt;- First item &lt;br&gt; - Second item &lt;br&gt;- Third item &lt;br&gt;- Fourth item</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPageF9">
+      <label>Local Image</label>
+      <hint>![Tux, the Linux mascot](file:///a.jpg)</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPageI9">
+      <label>Remote Image</label>
+      <hint>![Tux, the Linux mascot](https://raw.githubusercontent.com/indragiek/CocoaMarkdown/master/images/example-app-iOS.png)</hint>
+    </input>
+    <input ref="/all-markdown-gic/gicPage10">
+      <label>Quick url and email. Enclose the link in angle brackets</label>
+      <hint>https://www.markdownguide.org</hint>
+    </input>
+  </h:body>
+</h:html>

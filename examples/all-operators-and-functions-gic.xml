@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>All operators and functions gic</h:title>
+    <model>
+      <instance>
+        <all-operators-and-functions id="all-operators-and-functions-gic" version="202001310506">
+          <formhub>
+            <uuid/>
+          </formhub>
+          <intro/>
+          <value/>
+          <start/>
+          <step/>
+          <difference/>
+          <show_entry/>
+          <salary_income/>
+          <self_employed_income/>
+          <total_income/>
+          <expenses/>
+          <income/>
+          <show_income/>
+          <bill/>
+          <tip/>
+          <percent_of_tip/>
+          <show_percent/>
+          <modulo_example/>
+          <modulo_example_note/>
+          <is_total_income_1500/>
+          <is_total_income_not_1500/>
+          <age/>
+          <is_age_gt_17/>
+          <is_age_gte_18/>
+          <is_age_lt_65/>
+          <is_age_lte_64/>
+          <age_between_1_and_120/>
+          <age_lt_19_or_gt_64/>
+          <show_boolean_entries/>
+          <contains_test/>
+          <not_contains_test/>
+          <contains_test_result/>
+          <show_contains_test/>
+          <ends-with_test/>
+          <not_ends-with_test/>
+          <ends-with_test_result/>
+          <show_ends-with_test/>
+          <starts-with_test/>
+          <not_starts-with_test/>
+          <starts-with_test_result/>
+          <show_starts-with_test/>
+          <substring-before_test/>
+          <not_substring-before_test/>
+          <substring-before_not_found_test_result/>
+          <substring-before_test_result/>
+          <show_substring-before_test/>
+          <substring-after_test/>
+          <not_substring-after_test/>
+          <substring-after_not_found_test_result/>
+          <substring-after_test_result/>
+          <show_substring-after_test/>
+          <substring_one_parameter/>
+          <substring_two_parameters/>
+          <substring_test_result/>
+          <show_substring_test/>
+          <translate_test_one/>
+          <translate_test_two/>
+          <translate_test_result/>
+          <show_translate_test/>
+          <string-length_test/>
+          <string-length_test_result/>
+          <show_string-length_test/>
+          <boolean-from-string_test_1/>
+          <boolean-from-string_test_1_result/>
+          <show_boolean-from-string_test1/>
+          <boolean-from-string_test_0/>
+          <boolean-from-string_test_true/>
+          <boolean-from-string_test_FALSE/>
+          <boolean-from-string_test_test/>
+          <string_test_true/>
+          <string_test_false/>
+          <string_test_123/>
+          <string_test_unaprueba/>
+          <round_test_3_1416_3/>
+          <int_test_3_1416/>
+          <number_test_3_1416/>
+          <number_test_true/>
+          <number_test_false/>
+          <number_test_10/>
+          <number_test_abc/>
+          <pow_test_10_2/>
+          <log_test_10/>
+          <log10_test_10/>
+          <abs_test_10/>
+          <abs_test__10/>
+          <show_math_tests/>
+          <sin_test_180/>
+          <cos_test_180/>
+          <tan_test_180/>
+          <asin_test_0/>
+          <acos_test_1/>
+          <atan_test_1/>
+          <atan2_test_1_5/>
+          <sqrt_test_100/>
+          <exp_test_10/>
+          <exp10_test_10/>
+          <pi_test_/>
+          <show_math_tests_1/>
+          <digest_test_Test_MD5/>
+          <digest_test_Test_MD5_hex/>
+          <digest_test_Test_SHA_1/>
+          <digest_test_Test_SHA_1_hex/>
+          <digest_test_Test_SHA_256/>
+          <digest_test_Test_SHA_256_hex/>
+          <digest_test_Test_SHA_384/>
+          <digest_test_Test_SHA_384_hex/>
+          <digest_test_Test_SHA_512/>
+          <digest_test_Test_SHA_512_hex/>
+          <digest_test_TestLower_md5/>
+          <digest_test_TestLowercasealgorithm_md5/>
+          <show_digest_tests_1/>
+          <today_test_/>
+          <now_test_/>
+          <decimal-date-time_test_today/>
+          <decimal-date-time_test_now/>
+          <date_test_decimal_date_time_test_today/>
+          <decimal-time_test_now/>
+          <format-date_test_today_d_m_Y/>
+          <format-date-time_test_now_d_m_YHM/>
+          <show_dates_tests_1/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </all-operators-and-functions>
+      </instance>
+      <bind nodeset="/all-operators-and-functions/intro" readonly="true()" type="string"/>
+      <bind calculate="number(1.5)" nodeset="/all-operators-and-functions/value" type="string"/>
+      <bind calculate="number(1)" nodeset="/all-operators-and-functions/start" type="string"/>
+      <bind calculate="number(0.5)" nodeset="/all-operators-and-functions/step" type="string"/>
+      <bind calculate=" /all-operators-and-functions/value  - (int(( /all-operators-and-functions/value - /all-operators-and-functions/start ) div  /all-operators-and-functions/step ) *  /all-operators-and-functions/step  +  /all-operators-and-functions/start )" nodeset="/all-operators-and-functions/difference" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_entry" readonly="true()" type="string"/>
+      <bind calculate="number(1000)" nodeset="/all-operators-and-functions/salary_income" type="string"/>
+      <bind calculate="number(500)" nodeset="/all-operators-and-functions/self_employed_income" type="string"/>
+      <bind calculate=" /all-operators-and-functions/salary_income  +  /all-operators-and-functions/self_employed_income " nodeset="/all-operators-and-functions/total_income" type="string"/>
+      <bind calculate="number(250)" nodeset="/all-operators-and-functions/expenses" type="string"/>
+      <bind calculate=" /all-operators-and-functions/total_income  -  /all-operators-and-functions/expenses " nodeset="/all-operators-and-functions/income" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_income" readonly="true()" type="string"/>
+      <bind calculate="number(1250)" nodeset="/all-operators-and-functions/bill" type="string"/>
+      <bind calculate=" /all-operators-and-functions/bill *0.18" nodeset="/all-operators-and-functions/tip" type="string"/>
+      <bind calculate=" /all-operators-and-functions/tip  div  /all-operators-and-functions/bill " nodeset="/all-operators-and-functions/percent_of_tip" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_percent" readonly="true()" type="string"/>
+      <bind calculate="(number(1500) mod 2)" nodeset="/all-operators-and-functions/modulo_example" type="string"/>
+      <bind nodeset="/all-operators-and-functions/modulo_example_note" readonly="true()" type="string"/>
+      <bind calculate=" /all-operators-and-functions/total_income =1500" nodeset="/all-operators-and-functions/is_total_income_1500" type="string"/>
+      <bind calculate=" /all-operators-and-functions/total_income !=1500" nodeset="/all-operators-and-functions/is_total_income_not_1500" type="string"/>
+      <bind calculate="number(17)" nodeset="/all-operators-and-functions/age" type="string"/>
+      <bind calculate=" /all-operators-and-functions/age &gt;17" nodeset="/all-operators-and-functions/is_age_gt_17" type="string"/>
+      <bind calculate=" /all-operators-and-functions/age &gt;=18" nodeset="/all-operators-and-functions/is_age_gte_18" type="string"/>
+      <bind calculate=" /all-operators-and-functions/age &lt;65" nodeset="/all-operators-and-functions/is_age_lt_65" type="string"/>
+      <bind calculate=" /all-operators-and-functions/age &lt;=64" nodeset="/all-operators-and-functions/is_age_lte_64" type="string"/>
+      <bind calculate=" /all-operators-and-functions/age &gt;-1 and  /all-operators-and-functions/age &lt;120" nodeset="/all-operators-and-functions/age_between_1_and_120" type="string"/>
+      <bind calculate=" /all-operators-and-functions/age &lt;19 or  /all-operators-and-functions/age &gt;64" nodeset="/all-operators-and-functions/age_lt_19_or_gt_64" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_boolean_entries" readonly="true()" type="string"/>
+      <bind calculate="contains(&quot;This is a test.&quot;, &quot;test&quot;)" nodeset="/all-operators-and-functions/contains_test" type="string"/>
+      <bind calculate="contains(&quot;This is another test.&quot;, &quot;testing&quot;)" nodeset="/all-operators-and-functions/not_contains_test" type="string"/>
+      <bind calculate="if( /all-operators-and-functions/contains_test  and  /all-operators-and-functions/not_contains_test =0, &quot;&lt;span style='color:green'&gt;Test passed&lt;/span&gt;&quot;, &quot;&lt;span style='color:red'&gt;Test failed&lt;/span&gt;&quot;)" nodeset="/all-operators-and-functions/contains_test_result" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_contains_test" readonly="true()" type="string"/>
+      <bind calculate="ends-with(&quot;This is a test.&quot;, &quot;test.&quot;)" nodeset="/all-operators-and-functions/ends-with_test" type="string"/>
+      <bind calculate="ends-with(&quot;This is another test.&quot;, &quot;another&quot;)" nodeset="/all-operators-and-functions/not_ends-with_test" type="string"/>
+      <bind calculate="if( /all-operators-and-functions/ends-with_test  and  /all-operators-and-functions/not_ends-with_test =0, &quot;&lt;span style='color:green'&gt;Test passed&lt;/span&gt;&quot;, &quot;&lt;span style='color:red'&gt;Test failed&lt;/span&gt;&quot;)" nodeset="/all-operators-and-functions/ends-with_test_result" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_ends-with_test" readonly="true()" type="string"/>
+      <bind calculate="starts-with(&quot;This is a test.&quot;, &quot;This&quot;)" nodeset="/all-operators-and-functions/starts-with_test" type="string"/>
+      <bind calculate="starts-with(&quot;This is another test.&quot;, &quot;another&quot;)" nodeset="/all-operators-and-functions/not_starts-with_test" type="string"/>
+      <bind calculate="if( /all-operators-and-functions/starts-with_test  and  /all-operators-and-functions/not_starts-with_test =0, &quot;&lt;span style='color:green'&gt;Test passed&lt;/span&gt;&quot;, &quot;&lt;span style='color:red'&gt;Test failed&lt;/span&gt;&quot;)" nodeset="/all-operators-and-functions/starts-with_test_result" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_starts-with_test" readonly="true()" type="string"/>
+      <bind calculate="substring-before(&quot;This is a test.&quot;, &quot;test.&quot;)" nodeset="/all-operators-and-functions/substring-before_test" type="string"/>
+      <bind calculate="substring-before(&quot;This is another test.&quot;, &quot;another&quot;)" nodeset="/all-operators-and-functions/not_substring-before_test" type="string"/>
+      <bind calculate="substring-before(&quot;This is not found&quot;, &quot;another&quot;)" nodeset="/all-operators-and-functions/substring-before_not_found_test_result" type="string"/>
+      <bind calculate="if( /all-operators-and-functions/substring-before_test =&quot;This is a &quot; and  /all-operators-and-functions/not_substring-before_test =&quot;This is &quot; and  /all-operators-and-functions/substring-before_not_found_test_result =&quot;&quot;, &quot;&lt;span style='color:green'&gt;Test passed&lt;/span&gt;&quot;, &quot;&lt;span style='color:red'&gt;Test failed&lt;/span&gt;&quot;)" nodeset="/all-operators-and-functions/substring-before_test_result" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_substring-before_test" readonly="true()" type="string"/>
+      <bind calculate="substring-after(&quot;This is a test.&quot;, &quot;This is &quot;)" nodeset="/all-operators-and-functions/substring-after_test" type="string"/>
+      <bind calculate="substring-after(&quot;This is another test.&quot;, &quot;another &quot;)" nodeset="/all-operators-and-functions/not_substring-after_test" type="string"/>
+      <bind calculate="substring-after(&quot;This is not found&quot;, &quot;another&quot;)" nodeset="/all-operators-and-functions/substring-after_not_found_test_result" type="string"/>
+      <bind calculate="if( /all-operators-and-functions/substring-after_test =&quot;a test.&quot; and  /all-operators-and-functions/not_substring-after_test =&quot;test.&quot; and  /all-operators-and-functions/substring-after_not_found_test_result =&quot;&quot;, &quot;&lt;span style='color:green'&gt;Test passed&lt;/span&gt;&quot;, &quot;&lt;span style='color:red'&gt;Test failed&lt;/span&gt;&quot;)" nodeset="/all-operators-and-functions/substring-after_test_result" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_substring-after_test" readonly="true()" type="string"/>
+      <bind calculate="substr(&quot;This is a test&quot;, 5)" nodeset="/all-operators-and-functions/substring_one_parameter" type="string"/>
+      <bind calculate="substr(&quot;This is a test&quot;, 5, 7)" nodeset="/all-operators-and-functions/substring_two_parameters" type="string"/>
+      <bind calculate="if( /all-operators-and-functions/substring_one_parameter =&quot;is a test&quot; and  /all-operators-and-functions/substring_two_parameters =&quot;is&quot;, &quot;&lt;span style='color:green'&gt;Test passed&lt;/span&gt;&quot;, &quot;&lt;span style='color:red'&gt;Test failed&lt;/span&gt;&quot;)" nodeset="/all-operators-and-functions/substring_test_result" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_substring_test" readonly="true()" type="string"/>
+      <bind calculate="translate(&quot;This is a test&quot;, &quot;aeiou&quot;, &quot;AEIOU&quot;)" nodeset="/all-operators-and-functions/translate_test_one" type="string"/>
+      <bind calculate="translate(&quot;This is a test&quot;, &quot;aeiout &quot;, &quot;AEIOU&quot;)" nodeset="/all-operators-and-functions/translate_test_two" type="string"/>
+      <bind calculate="if( /all-operators-and-functions/translate_test_one =&quot;ThIs Is A tEst&quot; and  /all-operators-and-functions/translate_test_two =&quot;ThIsIsAEs&quot;, &quot;&lt;span style='color:green'&gt;Test passed&lt;/span&gt;&quot;, &quot;&lt;span style='color:red'&gt;Test failed&lt;/span&gt;&quot;)" nodeset="/all-operators-and-functions/translate_test_result" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_translate_test" readonly="true()" type="string"/>
+      <bind calculate="string-length(&quot;This is a test&quot;)" nodeset="/all-operators-and-functions/string-length_test" type="string"/>
+      <bind calculate="if( /all-operators-and-functions/string-length_test =14, &quot;&lt;span style='color:green'&gt;Test passed&lt;/span&gt;&quot;, &quot;&lt;span style='color:red'&gt;Test failed&lt;/span&gt;&quot;)" nodeset="/all-operators-and-functions/string-length_test_result" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_string-length_test" readonly="true()" type="string"/>
+      <bind calculate="boolean-from-string(1)" nodeset="/all-operators-and-functions/boolean-from-string_test_1" type="string"/>
+      <bind calculate="if( /all-operators-and-functions/boolean-from-string_test_1 =true(), &quot;&lt;span style='color:green'&gt;Test passed&lt;/span&gt;&quot;, &quot;&lt;span style='color:red'&gt;Test failed&lt;/span&gt;&quot;)" nodeset="/all-operators-and-functions/boolean-from-string_test_1_result" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_boolean-from-string_test1" readonly="true()" type="string"/>
+      <bind calculate="boolean-from-string(0)" nodeset="/all-operators-and-functions/boolean-from-string_test_0" type="string"/>
+      <bind calculate="boolean-from-string(true)" nodeset="/all-operators-and-functions/boolean-from-string_test_true" type="string"/>
+      <bind calculate="boolean-from-string(FALSE)" nodeset="/all-operators-and-functions/boolean-from-string_test_FALSE" type="string"/>
+      <bind calculate="boolean-from-string(test)" nodeset="/all-operators-and-functions/boolean-from-string_test_test" type="string"/>
+      <bind calculate="string(true())" nodeset="/all-operators-and-functions/string_test_true" type="string"/>
+      <bind calculate="string(false())" nodeset="/all-operators-and-functions/string_test_false" type="string"/>
+      <bind calculate="string(123)" nodeset="/all-operators-and-functions/string_test_123" type="string"/>
+      <bind calculate="string(&quot;una prueba&quot;)" nodeset="/all-operators-and-functions/string_test_unaprueba" type="string"/>
+      <bind calculate="round(3.1416, 3)" nodeset="/all-operators-and-functions/round_test_3_1416_3" type="string"/>
+      <bind calculate="int(3.1416)" nodeset="/all-operators-and-functions/int_test_3_1416" type="string"/>
+      <bind calculate="number(&quot;3.1416&quot;)" nodeset="/all-operators-and-functions/number_test_3_1416" type="string"/>
+      <bind calculate="number(true())" nodeset="/all-operators-and-functions/number_test_true" type="string"/>
+      <bind calculate="number(false())" nodeset="/all-operators-and-functions/number_test_false" type="string"/>
+      <bind calculate="number(&quot;10&quot;)" nodeset="/all-operators-and-functions/number_test_10" type="string"/>
+      <bind calculate="number(&quot;abc&quot;)" nodeset="/all-operators-and-functions/number_test_abc" type="string"/>
+      <bind calculate="pow(10, 2)" nodeset="/all-operators-and-functions/pow_test_10_2" type="string"/>
+      <bind calculate="log(10)" nodeset="/all-operators-and-functions/log_test_10" type="string"/>
+      <bind calculate="log10(10)" nodeset="/all-operators-and-functions/log10_test_10" type="string"/>
+      <bind calculate="abs(10)" nodeset="/all-operators-and-functions/abs_test_10" type="string"/>
+      <bind calculate="abs(-10)" nodeset="/all-operators-and-functions/abs_test__10" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_math_tests" readonly="true()" type="string"/>
+      <bind calculate="sin(180)" nodeset="/all-operators-and-functions/sin_test_180" type="string"/>
+      <bind calculate="cos(180)" nodeset="/all-operators-and-functions/cos_test_180" type="string"/>
+      <bind calculate="tan(180)" nodeset="/all-operators-and-functions/tan_test_180" type="string"/>
+      <bind calculate="asin(0)" nodeset="/all-operators-and-functions/asin_test_0" type="string"/>
+      <bind calculate="acos(1)" nodeset="/all-operators-and-functions/acos_test_1" type="string"/>
+      <bind calculate="atan(1)" nodeset="/all-operators-and-functions/atan_test_1" type="string"/>
+      <bind calculate="atan2(1, 5)" nodeset="/all-operators-and-functions/atan2_test_1_5" type="string"/>
+      <bind calculate="sqrt(100)" nodeset="/all-operators-and-functions/sqrt_test_100" type="string"/>
+      <bind calculate="exp(10)" nodeset="/all-operators-and-functions/exp_test_10" type="string"/>
+      <bind calculate="exp10(10)" nodeset="/all-operators-and-functions/exp10_test_10" type="string"/>
+      <bind calculate="pi()" nodeset="/all-operators-and-functions/pi_test_" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_math_tests_1" readonly="true()" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;MD5&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_MD5" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;MD5&quot;, &quot;hex&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_MD5_hex" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;SHA-1&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_SHA_1" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;SHA-1&quot;, &quot;hex&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_SHA_1_hex" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;SHA-256&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_SHA_256" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;SHA-256&quot;, &quot;hex&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_SHA_256_hex" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;SHA-384&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_SHA_384" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;SHA-384&quot;, &quot;hex&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_SHA_384_hex" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;SHA-512&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_SHA_512" type="string"/>
+      <bind calculate="digest(&quot;Test&quot;, &quot;SHA-512&quot;, &quot;hex&quot;)" nodeset="/all-operators-and-functions/digest_test_Test_SHA_512_hex" type="string"/>
+      <bind calculate="digest(&quot;TestLower&quot;, &quot;md5&quot;)" nodeset="/all-operators-and-functions/digest_test_TestLower_md5" type="string"/>
+      <bind calculate="digest(&quot;Test Lowercase algorithm&quot;, &quot;md5&quot;)" nodeset="/all-operators-and-functions/digest_test_TestLowercasealgorithm_md5" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_digest_tests_1" readonly="true()" type="string"/>
+      <bind calculate="today()" nodeset="/all-operators-and-functions/today_test_" type="string"/>
+      <bind calculate="now()" nodeset="/all-operators-and-functions/now_test_" type="string"/>
+      <bind calculate="decimal-date-time(today())" nodeset="/all-operators-and-functions/decimal-date-time_test_today" type="string"/>
+      <bind calculate="decimal-date-time(now())" nodeset="/all-operators-and-functions/decimal-date-time_test_now" type="string"/>
+      <bind calculate="date( /all-operators-and-functions/decimal-date-time_test_today )" nodeset="/all-operators-and-functions/date_test_decimal_date_time_test_today" type="string"/>
+      <bind calculate="decimal-time(now())" nodeset="/all-operators-and-functions/decimal-time_test_now" type="string"/>
+      <bind calculate="format-date(today(), &quot;%d-%m-%Y&quot;)" nodeset="/all-operators-and-functions/format-date_test_today_d_m_Y" type="string"/>
+      <bind calculate="format-date-time(now(), &quot;%d-%m-%Y %H:%M&quot;)" nodeset="/all-operators-and-functions/format-date-time_test_now_d_m_YHM" type="string"/>
+      <bind nodeset="/all-operators-and-functions/show_dates_tests_1" readonly="true()" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/all-operators-and-functions/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="'da6da15b459f470284988efdb6735fcd'" nodeset="/all-operators-and-functions/formhub/uuid" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/all-operators-and-functions/intro">
+      <label># GIC Collect 1.0.14
+
+### Form Operators and Functions
+
+GIC collect operators and functions currently working. All work except those in *italics* and in parentheses:
+
+ - Math operators: +, -, \*, div, mod
+ - Comparison operators: =, !=, &gt;, &gt;=, &lt;, &lt;=
+ - Boolean operators: and, or
+ - Path operators: ., ..
+ - Control flow: if, position, (*once*)
+ - Select questions: selected, selected-at, count-selected, (*jr:choice-name*)
+ - Repeat groups: indexed-repeat, count, max, min, sum. (*count-non-empty*)
+ - Strings: regex, contains, starts-with, ends-with, substr, substring-before, substring-after, string-length, translate, normalize-space
+ - Combining strings: concat, join
+ - Converting to and from strings: boolean-from-string, string
+ - Math: round, int, number, digest
+ - Calculation: pow, log, log10, abs, sin, cos, tan, asin, acos, atan, atan2, sqrt, exp, exp10, pi
+ - Date and time: today, now
+ - Converting dates and time: decimal-date-time, date, decimal-time
+ - Formatting dates and times for display: format-date, format-date-time
+ - Geography: (*area, distance*)
+ - Utility: random, randomize, uuid, boolean, not, checklist, weighted-checklist, coalesce, true, false
+
+![](file:///giclogo.png)
+
+# .
+## .</label>
+    </input>
+    <input ref="/all-operators-and-functions/show_entry">
+      <label> value: <output value=" /all-operators-and-functions/value "/> &lt;br&gt;
+start: <output value=" /all-operators-and-functions/start "/> &lt;br&gt;
+step: <output value=" /all-operators-and-functions/step "/> &lt;br&gt;
+difference = value - (int((value-start) div step) * step) + start = <output value=" /all-operators-and-functions/difference "/> </label></input>
+    <input ref="/all-operators-and-functions/show_income">
+      <label> salary_income: <output value=" /all-operators-and-functions/salary_income "/>&lt;br&gt;self_employed_income: <output value=" /all-operators-and-functions/self_employed_income "/>&lt;br&gt;total_income=salary_income+self_employed_income=<output value=" /all-operators-and-functions/total_income "/>&lt;br&gt;expenses:<output value=" /all-operators-and-functions/expenses "/>&lt;br&gt;income=total_income-expenses=<output value=" /all-operators-and-functions/income "/> </label></input>
+    <input ref="/all-operators-and-functions/show_percent">
+      <label> bill:<output value=" /all-operators-and-functions/bill "/>&lt;br&gt;tip=bill*0.18=<output value=" /all-operators-and-functions/tip "/>&lt;br&gt;percent_of_tip=tip/bill=<output value=" /all-operators-and-functions/percent_of_tip "/> </label></input>
+    <input ref="/all-operators-and-functions/modulo_example_note">
+      <label> modulo:(number(1500) mod 2) = <output value=" /all-operators-and-functions/modulo_example "/> </label></input>
+    <input ref="/all-operators-and-functions/show_boolean_entries">
+      <label> {total_income}=1500:<output value=" /all-operators-and-functions/is_total_income_1500 "/>&lt;br&gt;
+{total_income}!=1500:<output value=" /all-operators-and-functions/is_total_income_not_1500 "/>&lt;br&gt;
+age=number(17)=<output value=" /all-operators-and-functions/age "/>&lt;br&gt;
+{age}&gt;17:<output value=" /all-operators-and-functions/is_age_gt_17 "/>&lt;br&gt;
+(age)&gt;=18:<output value=" /all-operators-and-functions/is_age_gte_18 "/>&lt;br&gt;
+{age}&lt;65:<output value=" /all-operators-and-functions/is_age_lt_65 "/>&lt;br&gt;
+{age}&lt;=64:<output value=" /all-operators-and-functions/is_age_lte_64 "/>&lt;br&gt;
+{age}&gt;-1 and {age}&lt;120:<output value=" /all-operators-and-functions/age_between_1_and_120 "/>&lt;br&gt;
+age&lt;19 or age&gt;64:<output value=" /all-operators-and-functions/age_lt_19_or_gt_64 "/> </label></input>
+    <input ref="/all-operators-and-functions/show_contains_test">
+      <label> contains(&quot;This is a test.&quot;, &quot;test&quot;)=<output value=" /all-operators-and-functions/contains_test "/>&lt;br&gt;
+contains(&quot;This is another test.&quot;, &quot;testing&quot;)=<output value=" /all-operators-and-functions/not_contains_test "/>&lt;br&gt;<output value=" /all-operators-and-functions/contains_test_result "/> </label></input>
+    <input ref="/all-operators-and-functions/show_ends-with_test">
+      <label> ends-with(&quot;This is a test.&quot;, &quot;test.&quot;)=<output value=" /all-operators-and-functions/ends-with_test "/>&lt;br&gt;
+ends-with(&quot;This is another test.&quot;, &quot;another&quot;)=<output value=" /all-operators-and-functions/not_ends-with_test "/>&lt;br&gt;<output value=" /all-operators-and-functions/ends-with_test_result "/> </label></input>
+    <input ref="/all-operators-and-functions/show_starts-with_test">
+      <label> starts-with(&quot;This is a test.&quot;, &quot;This&quot;)=<output value=" /all-operators-and-functions/starts-with_test "/>&lt;br&gt;
+starts-with(&quot;This is another test.&quot;, &quot;another&quot;)=<output value=" /all-operators-and-functions/not_starts-with_test "/>&lt;br&gt;<output value=" /all-operators-and-functions/starts-with_test_result "/> </label></input>
+    <input ref="/all-operators-and-functions/show_substring-before_test">
+      <label> substring-before(&quot;This is a test.&quot;, &quot;test.&quot;)=<output value=" /all-operators-and-functions/substring-before_test "/>&lt;br&gt;
+substring-before(&quot;This is another test.&quot;, &quot;another&quot;)=<output value=" /all-operators-and-functions/not_substring-before_test "/>&lt;br&gt;<output value=" /all-operators-and-functions/substring-before_test_result "/>&lt;br&gt;--<output value=" /all-operators-and-functions/substring-before_not_found_test_result "/>--  </label>
+    </input>
+    <input ref="/all-operators-and-functions/show_substring-after_test">
+      <label> substring-after(&quot;This is a test.&quot;, &quot;This is &quot;)=<output value=" /all-operators-and-functions/substring-after_test "/>&lt;br&gt;
+substring-after(&quot;This is another test.&quot;, &quot;another&quot;)=<output value=" /all-operators-and-functions/not_substring-after_test "/>&lt;br&gt;<output value=" /all-operators-and-functions/substring-after_test_result "/>&lt;br&gt;--<output value=" /all-operators-and-functions/substring-after_not_found_test_result "/>--  </label>
+    </input>
+    <input ref="/all-operators-and-functions/show_substring_test">
+      <label> substr(&quot;This is a test&quot;, 5):<output value=" /all-operators-and-functions/substring_one_parameter "/>&lt;br&gt;
+substr(&quot;This is a test&quot;, 5, 7):--<output value=" /all-operators-and-functions/substring_two_parameters "/>--&lt;br&gt;<output value=" /all-operators-and-functions/substring_test_result "/> </label></input>
+    <input ref="/all-operators-and-functions/show_translate_test">
+      <label> translate(&quot;This is a test&quot;, &quot;aeiou&quot;, &quot;AEIOU&quot;):<output value=" /all-operators-and-functions/translate_test_one "/>&lt;br&gt;
+translate(&quot;This is a test&quot;, &quot;aeiout &quot;, &quot;AEIOU&quot;):--<output value=" /all-operators-and-functions/translate_test_two "/>&lt;br&gt;<output value=" /all-operators-and-functions/translate_test_result "/> </label></input>
+    <input ref="/all-operators-and-functions/show_string-length_test">
+      <label> string-length(&quot;This is a test&quot;):<output value=" /all-operators-and-functions/string-length_test "/>&lt;br&gt;
+<output value=" /all-operators-and-functions/string-length_test_result "/> </label></input>
+    <input ref="/all-operators-and-functions/show_boolean-from-string_test1">
+      <label> boolean-from-string(1):<output value=" /all-operators-and-functions/boolean-from-string_test_1 "/>:&lt;br&gt;<output value=" /all-operators-and-functions/boolean-from-string_test_1_result "/> </label></input>
+    <input ref="/all-operators-and-functions/show_math_tests">
+      <label> boolean-from-string(1)=<output value=" /all-operators-and-functions/boolean-from-string_test_1 "/>&lt;br&gt;boolean-from-string(0)=<output value=" /all-operators-and-functions/boolean-from-string_test_0 "/>&lt;br&gt;boolean-from-string(true)=<output value=" /all-operators-and-functions/boolean-from-string_test_true "/>&lt;br&gt;boolean-from-string(FALSE)=<output value=" /all-operators-and-functions/boolean-from-string_test_FALSE "/>&lt;br&gt;boolean-from-string(test)=<output value=" /all-operators-and-functions/boolean-from-string_test_test "/>&lt;br&gt;string(true())=<output value=" /all-operators-and-functions/string_test_true "/>&lt;br&gt;string(false())=<output value=" /all-operators-and-functions/string_test_false "/>&lt;br&gt;string(123)=<output value=" /all-operators-and-functions/string_test_123 "/>&lt;br&gt;string(&quot;una prueba&quot;)=<output value=" /all-operators-and-functions/string_test_unaprueba "/>&lt;br&gt;round(3.1416, 3)=<output value=" /all-operators-and-functions/round_test_3_1416_3 "/>&lt;br&gt;int(3.1416)=<output value=" /all-operators-and-functions/int_test_3_1416 "/>&lt;br&gt;number(&quot;3.1416&quot;)=<output value=" /all-operators-and-functions/number_test_3_1416 "/>&lt;br&gt;number(true())=<output value=" /all-operators-and-functions/number_test_true "/>&lt;br&gt;number(false())=<output value=" /all-operators-and-functions/number_test_false "/>&lt;br&gt;number(&quot;10&quot;)=<output value=" /all-operators-and-functions/number_test_10 "/>&lt;br&gt;number(&quot;abc&quot;)=<output value=" /all-operators-and-functions/number_test_abc "/>&lt;br&gt;pow(10, 2)=<output value=" /all-operators-and-functions/pow_test_10_2 "/>&lt;br&gt;log(10)=<output value=" /all-operators-and-functions/log_test_10 "/>&lt;br&gt;log10(10)=<output value=" /all-operators-and-functions/log10_test_10 "/>&lt;br&gt;abs(10)=<output value=" /all-operators-and-functions/abs_test_10 "/>&lt;br&gt;abs(-10)=<output value=" /all-operators-and-functions/abs_test__10 "/>&lt;br&gt;abs(-10)=<output value=" /all-operators-and-functions/abs_test__10 "/>&lt;br&gt;  </label>
+    </input>
+    <input ref="/all-operators-and-functions/show_math_tests_1">
+      <label> sin(180)=<output value=" /all-operators-and-functions/sin_test_180 "/>&lt;br&gt;cos(180)=<output value=" /all-operators-and-functions/cos_test_180 "/>&lt;br&gt;tan(180)=<output value=" /all-operators-and-functions/tan_test_180 "/>&lt;br&gt;asin(0)=<output value=" /all-operators-and-functions/asin_test_0 "/>&lt;br&gt;acos(1)=<output value=" /all-operators-and-functions/acos_test_1 "/>&lt;br&gt;atan(1)=<output value=" /all-operators-and-functions/atan_test_1 "/>&lt;br&gt;atan2(1, 5)=<output value=" /all-operators-and-functions/atan2_test_1_5 "/>&lt;br&gt;sqrt(100)=<output value=" /all-operators-and-functions/sqrt_test_100 "/>&lt;br&gt;exp(10)=<output value=" /all-operators-and-functions/exp_test_10 "/>&lt;br&gt;exp10(10)=<output value=" /all-operators-and-functions/exp10_test_10 "/>&lt;br&gt;pi()=<output value=" /all-operators-and-functions/pi_test_ "/>&lt;br&gt;  </label>
+    </input>
+    <input ref="/all-operators-and-functions/show_digest_tests_1">
+      <label> digest(&quot;Test&quot;, &quot;MD5&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_MD5 "/>&lt;br&gt;digest(&quot;Test&quot;, &quot;MD5&quot;, &quot;hex&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_MD5_hex "/>&lt;br&gt;digest(&quot;Test&quot;, &quot;SHA-1&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_SHA_1 "/>&lt;br&gt;digest(&quot;Test&quot;, &quot;SHA-1&quot;, &quot;hex&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_SHA_1_hex "/>&lt;br&gt;digest(&quot;Test&quot;, &quot;SHA-256&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_SHA_256 "/>&lt;br&gt;digest(&quot;Test&quot;, &quot;SHA-256&quot;, &quot;hex&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_SHA_256_hex "/>&lt;br&gt;digest(&quot;Test&quot;, &quot;SHA-384&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_SHA_384 "/>&lt;br&gt;digest(&quot;Test&quot;, &quot;SHA-384&quot;, &quot;hex&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_SHA_384_hex "/>&lt;br&gt;digest(&quot;Test&quot;, &quot;SHA-512&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_SHA_512 "/>&lt;br&gt;digest(&quot;Test&quot;, &quot;SHA-512&quot;, &quot;hex&quot;)=<output value=" /all-operators-and-functions/digest_test_Test_SHA_512_hex "/>&lt;br&gt;digest(&quot;TestLower&quot;, &quot;md5&quot;)=<output value=" /all-operators-and-functions/digest_test_TestLower_md5 "/>&lt;br&gt;digest(&quot;Test Lowercase algorithm&quot;, &quot;md5&quot;)=<output value=" /all-operators-and-functions/digest_test_TestLowercasealgorithm_md5 "/>&lt;br&gt;  </label>
+    </input>
+    <input ref="/all-operators-and-functions/show_dates_tests_1">
+      <label> today()=<output value=" /all-operators-and-functions/today_test_ "/>&lt;br&gt;now()=<output value=" /all-operators-and-functions/now_test_ "/>&lt;br&gt;decimal-date-time(today())=<output value=" /all-operators-and-functions/decimal-date-time_test_today "/>&lt;br&gt;decimal-date-time(now())=<output value=" /all-operators-and-functions/decimal-date-time_test_now "/>&lt;br&gt;date(<output value=" /all-operators-and-functions/decimal-date-time_test_today "/>)=<output value=" /all-operators-and-functions/date_test_decimal_date_time_test_today "/>&lt;br&gt;decimal-time(now())=<output value=" /all-operators-and-functions/decimal-time_test_now "/>&lt;br&gt;format-date(today(), &quot;%d-%m-%Y&quot;)=<output value=" /all-operators-and-functions/format-date_test_today_d_m_Y "/>&lt;br&gt;format-date-time(now(), &quot;%d-%m-%Y %H:%M&quot;)=<output value=" /all-operators-and-functions/format-date-time_test_now_d_m_YHM "/>&lt;br&gt;  </label>
+    </input>
+  </h:body>
+</h:html>
