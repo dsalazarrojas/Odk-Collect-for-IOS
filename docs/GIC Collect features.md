@@ -111,5 +111,4 @@ The following widgets and appearances work, but those in italics and in parenthe
 - rank: *(no appearance)*
 - trigger: no appearance
 
-![](images/giclogo.png)
 

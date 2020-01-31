@@ -28,6 +28,8 @@
 Version 1.0.14
 30/Jan/2020
 
+[All current features](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20features.html)
+
 - Fixed download media from enketo, kobotoolbox and ona.io
 - Added cascading selects internal and external
 - Fixed show media in choices
