@@ -96,21 +96,21 @@ The following widgets and appearances work, but those in italics and in parenthe
 - barcode: no apperance
 - audio: no appearance
 - video: no appearance, new-front
-- file: *(no appearance)*
+- *file: (no appearance)*
 - date no-calendar, ethiopian, coptic, islamic, persian, *(no appearance, month-year, year,  bikram-sambat, myanmar)*
 - time: no-calendar, *(no appearance)*
 - dateTime: no-calendar, *(no appearance)*
 - geoPoint: no appearance, *(placement-map, maps)*
-- geoTrace: *(no appearance)*
-- geoShape: *(no appearance)*
-- osm: *(no appearance)*
+- *geoTrace: (no appearance)*
+- *geoShape: (no appearance)*
+- *osm: (no appearance)*
 - select\_one: no appearance, *(minimal, quick, search, autocomplete)*
 - select\_one with images: no appearance, *(compact, compact-2, quickcompact, quickcompact-2, image-map, likert)*
 - select\_multiple: no appearance, *(autocomplete)*
 - select\_multiple with images: no appearance, *(compact, compact-2, minimal, image-map) 
 - select \_one: *(label, list-nolabel, list)*
 - select \_multiple: *(label, list-nolabel, list)*
-- rank: *(no appearance)*
+- *rank: (no appearance)*
 - trigger: no appearance
 
 
