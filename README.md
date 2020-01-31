@@ -6,7 +6,7 @@ This is our port of the open data kit collect for IOS. Most of the functions are
 
 Please let us know of any bugs you find when you test your forms. Also please send us your test cases that failed. We will try to address all the major issues and the issues that affect more as soon as time allows. Please add an issue on this repository including your test files if possible. We will be happy to solve issues [collect@gic.mx](mailto:collect@gic.mx) if you wish to discuss your specific needs. Also contact me to be notified of the latest version so you can test every new version we release at [collect@gic.mx](mailto:collect@gic.mx)
 
-# Objectives for this version
+# Objectives
 
 - Large compatibility of forms with ODK Collect
 - Connect for upload and download of data and forms to ODK Aggregate

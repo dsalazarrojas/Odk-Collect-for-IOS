@@ -1,6 +1,6 @@
 # What’s new
 
-# Keep informed of our news about the app and special offers
+Keep informed of our news about the app and special offers
 
 <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
