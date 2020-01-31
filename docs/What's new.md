@@ -25,6 +25,32 @@
 
 <!--End mc_embed_signup-->
 
+Version 1.0.14
+30/Jan/2020
+
+- Fixed download media from enketo, kobotoolbox and ona.io
+- Added cascading selects internal and external
+- Fixed show media in choices
+- Added markdown styling to question, hint and choices
+- Added range widget. Manage all appearance options. 
+- Added time and date time widgets
+- Added more appearances to date, time and date time widgets.
+- Added url appearance to string
+- Added decimal-sep appearance to text widget with numbers appearance, integer and decimal widgets
+- Fixed uuid() function. This caused the results to not be uploaded to server on forms that included the uuid field.
+- Improve time to process downloaded csv files 
+- Calculations on fields on opening of form.
+- Now more functions work. Still missing functions: count-non-empty, area, distance, once
+- Added examples on which question types, form operators, markdown and functions work in this version. 
+- Added minus button to keyboard on numeric and decimal questions.
+- Added decimal point to keyboard on decimal questions and allow only one decimal point in decimal questions
+- Fixed trigger control crash when not using relevant or required flag.
+- Added new appearance to all media widgets
+- Added barcode widget
+- Added draw, annotate and signature widgets
+- Fixed field-list navigation
+- Fixed calculations inside repeats
+- Lots of fixes and optimizations
 
 # Version 1.0.9 
 
