@@ -1,5 +1,7 @@
 # GIC Collect 1.0.14
 
+[GIC Collect examples](https://github.com/dsalazarrojas/Odk-Collect-for-IOS/tree/master/examples)
+
 ### Logic Building Blocks
 
 The following building blocks work
