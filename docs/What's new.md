@@ -29,6 +29,7 @@ Keep informed of our news about the app and special offers
 30/Jan/2020
 
 [All current features](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20features.html)
+[GIC Collect examples](https://github.com/dsalazarrojas/Odk-Collect-for-IOS/tree/master/examples)
 
 - Fixed download media from enketo, kobotoolbox and ona.io
 - Added cascading selects internal and external

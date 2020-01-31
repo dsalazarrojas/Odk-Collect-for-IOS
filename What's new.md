@@ -1,7 +1,6 @@
 # What’s new
 
 Keep informed of our news about the app and special offers
-
 <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="https://github.us4.list-manage.com/subscribe/post?u=fd84e7b022eedaaec133c1eb0&amp;id=c204a3a1bb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -25,11 +24,12 @@ Keep informed of our news about the app and special offers
 
 <!--End mc_embed_signup-->
 
-Version 1.0.14
+# Version 1.0.14
 
 30/Jan/2020
 
 [All current features](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20features.html)
+[GIC Collect examples](https://github.com/dsalazarrojas/Odk-Collect-for-IOS/tree/master/examples)
 
 - Fixed download media from enketo, kobotoolbox and ona.io
 - Added cascading selects internal and external
