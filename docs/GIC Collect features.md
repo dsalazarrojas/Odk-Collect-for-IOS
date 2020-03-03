@@ -2,6 +2,10 @@
 
 [GIC Collect examples](https://github.com/dsalazarrojas/Odk-Collect-for-IOS/tree/master/examples)
 
+# Download the app from the apple store
+
+[https://apps.apple.com/mx/app/gic-collect/id1485932698](https://apps.apple.com/mx/app/gic-collect/id1485932698)
+
 ### Logic Building Blocks
 
 The following building blocks work
@@ -79,7 +83,7 @@ GIC collect operators and functions currently working. All work except those in 
  - Date and time: today, now
  - Converting dates and time: decimal-date-time, date, decimal-time
  - Formatting dates and times for display: format-date, format-date-time
- - Geography: (*area, distance*)
+ - Geography: area, distance
  - Utility: random, randomize, uuid, boolean, not, checklist, weighted-checklist, coalesce, true, false
 
 ### Widgets
@@ -90,27 +94,33 @@ The following widgets and appearances work, but those in italics and in parenthe
 
 - text: no appearance, numbers, thousands-sep, url, *(ex:change.uw.android.BREATHCOUNT, printer:org.opendatakit.sensors.ZebraPrinter)*
 - integer: no appearance, thousands-sep, *(ex:change.uw.android.BREATHCOUNT)*
-- decimal:  no appearance, thousands-sep, *(ex:change.uw.android.BREATHCOUNT, bearing)*
+- decimal:  no appearance, thousands-sep, *(ex:change.uw.android.BREATHCOUNT)*, bearing
 - range: integer no appearance, decimal no appearance, integer vertical, decimal vertical, picker, range
 - image: no appearance, new, selfie, selfie new, draw, annotate, signature
 - barcode: no apperance
 - audio: no appearance
 - video: no appearance, new-front
 - *file: (no appearance)*
-- date no-calendar, ethiopian, coptic, islamic, persian, *(no appearance, month-year, year,  bikram-sambat, myanmar)*
+- date no-calendar, ethiopian, coptic, islamic, persian, no appearance, month-year, year,  *(bikram-sambat, myanmar)*
 - time: no-calendar, *(no appearance)*
 - dateTime: no-calendar, *(no appearance)*
-- geoPoint: no appearance, *(placement-map, maps)*
-- *geoTrace: (no appearance)*
-- *geoShape: (no appearance)*
+- geoPoint: no appearance, placement-map, maps
+- geoTrace: no appearance
+- geoShape: no appearance
 - *osm: (no appearance)*
-- select\_one: no appearance, *(minimal, quick, search, autocomplete)*
-- select\_one with images: no appearance, *(compact, compact-2, quickcompact, quickcompact-2, image-map, likert)*
-- select\_multiple: no appearance, *(autocomplete)*
-- select\_multiple with images: no appearance, *(compact, compact-2, minimal, image-map) 
+- select\_one: no appearance, minimal, quick, search, autocomplete
+- select\_one with images: no appearance, compact, compact-2, quickcompact, quickcompact-2, *(image-map, likert)*
+- select\_multiple: no appearance, autocomplete
+- select\_multiple with images: no appearance, compact, compact-2, minimal, *(image-map)* 
 - select \_one: *(label, list-nolabel, list)*
 - select \_multiple: *(label, list-nolabel, list)*
 - *rank: (no appearance)*
 - trigger: no appearance
 
+
+[What's new](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/What's%20new.html)
+[All current features](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20features.html)
+[Contact us](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html)
+[Privacy Policy](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Privacy-Policy.html)
+[Training Course](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20for%20IOS%20Compatible%20with%20ODK%20Training%20Course.html)
 
