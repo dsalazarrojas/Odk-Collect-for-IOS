@@ -28,6 +28,21 @@ Keep informed of our news about the app and special offers
 
 [https://apps.apple.com/mx/app/gic-collect/id1485932698](https://apps.apple.com/mx/app/gic-collect/id1485932698)
 
+# Version 1.0.20
+
+18/Mar/2020
+
+- Improve navigation and selection of field-list
+- Added formula management in required field
+- Improved notificatios to user on login screen
+- Improved management of required field in repeats
+- Notify user when leaving the form that all data has been saved
+- Improve screen space management for iPhone 5
+- Manage the last 4 servers with succesful connection
+- Notify of several errors on server connection
+- Add help button to contact us on how to connect to the servers
+- Various fixes and optimizations
+
 # Version 1.0.16
 
 28/Feb/2020

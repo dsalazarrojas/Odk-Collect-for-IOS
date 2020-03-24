@@ -24,6 +24,45 @@ Keep informed of our news about the app and special offers
 
 <!--End mc_embed_signup-->
 
+# Download the app from the apple store
+
+[https://apps.apple.com/mx/app/gic-collect/id1485932698](https://apps.apple.com/mx/app/gic-collect/id1485932698)
+
+Version 1.0.20
+18/Mar/2020
+
+- Improve navigation and selection of field-list
+- Added formula management in required field
+- Improved notificatios to user on login screen
+- Improved management of required field in repeats
+- Notify user when leaving the form that all data has been saved
+- Improve screen space management for iPhone 5
+- Manage the last 4 servers with succesful connection
+- Notify of several errors on server connection
+- Add help button to contact us on how to connect to the servers
+- Various fixes and optimizations
+
+# Version 1.0.16
+
+28/Feb/2020
+
+[All current features](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20features.html)
+
+[GIC Collect examples](https://github.com/dsalazarrojas/Odk-Collect-for-IOS/tree/master/examples)
+
+- Added google drive and google sheets connections
+- Modify login to accept connections to http servers
+- Manage more responses from login to servers and notify users
+- Added decimal with bearing appearance
+- Added date with no-calendar, month-year, and year appearance
+- Added geopoint control with placement-map and maps appearanc
+- Added geoshape control
+- Added geotrace control
+- Added area and distance functions
+- Added select_one with minimal, quick, search, autocomplete, compact, compact-2, quickcompact, quickcompact-2 appearance
+- Added select multiple with minimal, autocomplete, compact, compact-2 appearance
+- Lots of fixes and optimizations
+
 # Version 1.0.14
 
 30/Jan/2020
@@ -70,3 +109,8 @@ Keep informed of our news about the app and special offers
 - Connect now also to enketo, kobotoolbox and ona.io
 - Minor fixes and optimizations.
 
+[What's new](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/What's%20new.html)
+[All current features](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20features.html)
+[Contact us](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html)
+[Privacy Policy](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Privacy-Policy.html)
+[Training Course](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20for%20IOS%20Compatible%20with%20ODK%20Training%20Course.html)
