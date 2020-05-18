@@ -28,6 +28,23 @@ Keep informed of our news about the app and special offers
 
 [https://apps.apple.com/mx/app/gic-collect/id1485932698](https://apps.apple.com/mx/app/gic-collect/id1485932698)
 
+# Version 1.0.26
+12/May/2020
+
+- Improved memory usage while downloading new forms.
+- Reduced memory usage while entering data in forms.
+- Improved performance while entering data in forms in several cases.
+- Improved performance while downloading new forms.
+- Improved performance while processing csv files.
+- Fixed processing of csv files. Added more cases.
+- Fixed navigation while going backward thorugh the forms.
+- Improved performance of calculations and constraints.
+- Reduced memory usage during calculations and constraints.
+- Fixed memory leaks while downloading new forms.
+- Fixed cascading selects while in field-list
+- Fixed login to some servers. 
+- Several more bug fixes and optimizations
+
 # Version 1.0.21
 10/Apr/2020
 
