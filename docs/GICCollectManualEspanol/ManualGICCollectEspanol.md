@@ -33,6 +33,48 @@ Keep informed of our news about the app and special offers
 Contact us at [collect@gic.mx](mailto:collect@gic.mx) for anything related to customizations to the gic collect or odk collect versions.
 
 
+#GIC Collect for iphone compatible with ODK (Espanol)
+
+1. Seleccionar el idioma para GIC Collect
+2. Conectandose a un servidor
+
+
+Seleccionar el idioma para GIC Collect
+
+GIC Collect actualmente solo soporta la interface en ingles o espanol. La seleccion de idioma se hace tomando como base la seleccion del idioma en que este puesto el iphone. Para cambiar el idioma de la app GIC Collect tienes que cambiar el idioma de tu iphone. Para eso haz lo siguiente:
+
+Selecciona configuración en la pantalla principal.
+
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/00%20-%20General.jpeg "Configuración")
+
+Selecciona General
+
+Selecciona Idioma y región.
+
+Selecciona el idioma del iphone que deseas.
+
+
+Conectandose a un servidor con el GIC Collect
+
+Selecciona el icono de un engrane al lado de el titulo Menú Principal.
+
+La aplicación de GIC Collect se puede conectar a servidor de tipo ODK Aggregate, por ejemplo, un aggregate privado en tu organización, o un servidor público como ona.io, kobotoolbox o algunos otros que proveen el servicio y se comportan igual que un ODK Aggregate mas algunos otros servicios extras. El otro tipo de servidor al que se puede conectar el GIC Collect es google drive. 
+
+Conectarse a un servidor tipo ODK Aggregate.
+
+Seleccionar en esta pantalla el tipo de servidor dando click en el icono de nubes. Para elegir un servidor tipo aggregate seleccionar la opción “Server (ODK Aggregate, KoboToolbox, Enketo, or Ona.io) En esta opción tambien podemos directamente seleccionar cualquiera de estos servidores públicos en un dropdown. 
+
+En caso de ser un servidor con seguridad debemos ahora introducir los datos de username y password. Estos datos debio proporcionarnoslos el administrador del servicio. 
+
+En caso de un servidor público hay que dar de alta una cuenta en el servicio o cuando nos dieron los datos ya directamente el administrador introducir la dirección de servidor que nos haya proporcionado el administrador y en caso necesario, no siempre lo es, un usuario y password.
+
+El password no se muestra en pantalla, en caso de requerir verlo para asegurar lo que tecleamos darle el icono con forma de un pequeno ojo. Esto  nos muestra el password hasta que le seleccionemos nuevamente este botón.
+
+Seleccionar despues el botón de aceptar. En este momento la aplicación intenta conectarse al servidor, en caso de ser exitoso se sale de esta pantalla, si no logra conectarse nos indica que hay algun error e intenta dar un mensaje de que es el error. 
+
+Los errores comunes son haber escrito mal la dirección del servidor o el usuario o el password. Por favor revise estos datos. El otro problema es cuando no existe una conexión confiable a internet, revise que este conectado a internet y que funcione correctamente. 
+
+
 
 [What's new](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/What's%20new.html)
 [All current features](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20features.html)
