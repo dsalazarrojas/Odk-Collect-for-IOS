@@ -33,13 +33,13 @@ Keep informed of our news about the app and special offers
 Contact us at [collect@gic.mx](mailto:collect@gic.mx) for anything related to customizations to the gic collect or odk collect versions.
 
 
-#GIC Collect for iphone compatible with ODK (Espanol)
+# GIC Collect for iphone compatible with ODK (Espanol)
 
 1. Seleccionar el idioma para GIC Collect
 2. Conectandose a un servidor
 
 
-Seleccionar el idioma para GIC Collect
+## Seleccionar el idioma para GIC Collect
 
 GIC Collect actualmente solo soporta la interface en ingles o espanol. La seleccion de idioma se hace tomando como base la seleccion del idioma en que este puesto el iphone. Para cambiar el idioma de la app GIC Collect tienes que cambiar el idioma de tu iphone. Para eso haz lo siguiente:
 
@@ -49,12 +49,17 @@ Selecciona configuración en la pantalla principal.
 
 Selecciona General
 
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/01%20-%20General-Configuracion "Configuración")
+
 Selecciona Idioma y región.
+
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/02%20-%20General-Configuracion-Detalle "Configuración")
 
 Selecciona el idioma del iphone que deseas.
 
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/03%20-%20General-Configuracion-IdiomaYRegion "Configuración")
 
-Conectandose a un servidor con el GIC Collect
+# Conectandose a un servidor con el GIC Collect
 
 Selecciona el icono de un engrane al lado de el titulo Menú Principal.
 
