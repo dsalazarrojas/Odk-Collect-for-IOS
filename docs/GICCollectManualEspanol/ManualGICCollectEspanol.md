@@ -49,15 +49,15 @@ Selecciona configuración en la pantalla principal.
 
 Selecciona General
 
-![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/01%20-%20General-Configuracion "Configuración")
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/01%20-%20General-Configuracion.png "Configuración")
 
 Selecciona Idioma y región.
 
-![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/02%20-%20General-Configuracion-Detalle "Configuración")
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/02%20-%20General-Configuracion-Detalle.png "Configuración")
 
 Selecciona el idioma del iphone que deseas.
 
-![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/03%20-%20General-Configuracion-IdiomaYRegion "Configuración")
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Images/03%20-%20General-Configuracion-IdiomaYRegion.png "Configuración")
 
 # Conectandose a un servidor con el GIC Collect
 
