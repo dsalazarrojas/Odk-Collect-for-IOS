@@ -146,3 +146,5 @@ Keep informed of our news about the app and special offers
 [Contact us](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html)
 [Privacy Policy](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Privacy-Policy.html)
 [Training Course](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20for%20IOS%20Compatible%20with%20ODK%20Training%20Course.html)
+[Manual (English)](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEnglish/ManualGICCollectEnglish.html)
+[Manual (Español)](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/ManualGICCollectEspanol.html)

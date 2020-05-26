@@ -63,7 +63,11 @@ Selecciona el idioma del iphone que deseas.
 
 Selecciona el icono de un engrane al lado de el titulo Menú Principal.
 
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Config01-MenuPrincipal.png "Configuración")
+
 La aplicación de GIC Collect se puede conectar a servidor de tipo ODK Aggregate, por ejemplo, un aggregate privado en tu organización, o un servidor público como ona.io, kobotoolbox o algunos otros que proveen el servicio y se comportan igual que un ODK Aggregate mas algunos otros servicios extras. El otro tipo de servidor al que se puede conectar el GIC Collect es google drive. 
+
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Config02-Configuration01.png "Configuración")
 
 Conectarse a un servidor tipo ODK Aggregate.
 
@@ -75,10 +79,11 @@ En caso de un servidor público hay que dar de alta una cuenta en el servicio o 
 
 El password no se muestra en pantalla, en caso de requerir verlo para asegurar lo que tecleamos darle el icono con forma de un pequeno ojo. Esto  nos muestra el password hasta que le seleccionemos nuevamente este botón.
 
+![](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/Config03-Config02.png "Configuración")
+
 Seleccionar despues el botón de aceptar. En este momento la aplicación intenta conectarse al servidor, en caso de ser exitoso se sale de esta pantalla, si no logra conectarse nos indica que hay algun error e intenta dar un mensaje de que es el error. 
 
 Los errores comunes son haber escrito mal la dirección del servidor o el usuario o el password. Por favor revise estos datos. El otro problema es cuando no existe una conexión confiable a internet, revise que este conectado a internet y que funcione correctamente. 
-
 
 
 [What's new](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/What's%20new.html)
@@ -86,4 +91,7 @@ Los errores comunes son haber escrito mal la dirección del servidor o el usuari
 [Contact us](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html)
 [Privacy Policy](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Privacy-Policy.html)
 [Training Course](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20for%20IOS%20Compatible%20with%20ODK%20Training%20Course.html)
+[Manual (English)](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEnglish/ManualGICCollectEnglish.html)
+[Manual (Español)](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/ManualGICCollectEspanol.html)
+
 
