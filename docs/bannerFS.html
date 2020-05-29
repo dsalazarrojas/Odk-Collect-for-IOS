@@ -36,9 +36,9 @@ img{
   ];
   
   var imageUrlsSpanish = [
-       "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedSpecialFeaturesOnOdkBannerFullScreen.jpeg"
-     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedHelpWithYourFormDesignBannerFS.jpg"
-     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedHelpWithODKProgrammingFS.jpg"
+       "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedSpecialFeaturesOnOdkBannerFullScreenSP.jpeg"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedHelpWithYourFormDesignBannerFSsp.jpg"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedHelpWithODKProgrammingFSsp.jpg"
      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/CompraSuscripcionOdkBannerFullScreen.png"
      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/CompraSuscripcionOdkBannerFullScreen.png"
      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/CompraSuscripcionOdkBannerFullScreen.png"     
@@ -55,7 +55,7 @@ img{
 
   function getImageHtmlCode() {
     var userLang = navigator.language || navigator.userLanguage;
-    if (userLang == "es") {
+    if (userLang.substring(0, 2) == "es") {
       var dataIndex = Math.floor(Math.random() * imageUrlsSpanish.length);
       var img = '<a href=\"' + imageLinksSpanish[dataIndex] + '"><img src="';        
       img += imageUrlsSpanish[dataIndex];
@@ -74,6 +74,8 @@ img{
 <body bgcolor="white">
 <script type="text/javascript">
   document.write(getImageHtmlCode());
+  var userLang = navigator.language || navigator.userLanguage;
+  document.write(userLang);
 </script>
 </body>
 </html>
