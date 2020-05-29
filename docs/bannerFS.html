@@ -22,19 +22,52 @@ img{
        "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedSpecialFeaturesOnOdkBannerFullScreen.jpg"
      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedHelpWithYourFormDesignBannerFS.jpg"
      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedHelpWithODKProgrammingFS.jpg"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/BuySuscriptionOdkBannerFullScreen.png"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/BuySuscriptionOdkBannerFullScreen.png"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/BuySuscriptionOdkBannerFullScreen.png"     
   ];
  var imageLinks = [
        "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
       , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
        , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+       ,"https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+       , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
   ];
+  
+  var imageUrlsSpanish = [
+       "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedSpecialFeaturesOnOdkBannerFullScreen.jpg"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedHelpWithYourFormDesignBannerFS.jpg"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/NeedHelpWithODKProgrammingFS.jpg"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/CompraSuscripcionOdkBannerFullScreen.png"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/CompraSuscripcionOdkBannerFullScreen.png"
+     , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/images/CompraSuscripcionOdkBannerFullScreen.png"     
+  ];
+ var imageLinksSpanish = [
+       "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+       , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+       ,"https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+      , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+       , "https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html"
+  ];
+  
 
   function getImageHtmlCode() {
-    var dataIndex = Math.floor(Math.random() * imageUrls.length);
-    var img = '<a href=\"' + imageLinks[dataIndex] + '"><img src="';        
-    img += imageUrls[dataIndex];
-    img += '\" alt=\”GIC Collect\”/></a>';
-    return img;
+    var userLang = navigator.language || navigator.userLanguage;
+    if (userLang == "es") {
+      var dataIndex = Math.floor(Math.random() * imageUrlsSpanish.length);
+      var img = '<a href=\"' + imageLinksSpanish[dataIndex] + '"><img src="';        
+      img += imageUrlsSpanish[dataIndex];
+      img += '\" alt=\”GIC Collect\”/></a>';
+      return img;
+    } else {
+      var dataIndex = Math.floor(Math.random() * imageUrls.length);
+      var img = '<a href=\"' + imageLinks[dataIndex] + '"><img src="';        
+      img += imageUrls[dataIndex];
+      img += '\" alt=\”GIC Collect\”/></a>';
+      return img;
+    }
   }
 </script>
 </head>
