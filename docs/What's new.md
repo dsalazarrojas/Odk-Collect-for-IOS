@@ -28,6 +28,18 @@ Keep informed of our news about the app and special offers
 
 [https://apps.apple.com/mx/app/gic-collect/id1485932698](https://apps.apple.com/mx/app/gic-collect/id1485932698)
 
+# Version 1.0.27
+12/Jun/2020
+
+- Added more error handling in upload and download of data
+- Fixed markdown processing
+- Manage upload of multiple media files
+- Better handling of login to the different servers
+- More error reporting on downloading of forms
+- More error reporting on uploading of data and media
+- Upload full quality images to servers
+- Several more fixes and optimizations
+
 # Version 1.0.26
 12/May/2020
 
