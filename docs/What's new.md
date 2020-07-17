@@ -28,6 +28,49 @@ Keep informed of our news about the app and special offers
 
 [https://apps.apple.com/mx/app/gic-collect/id1485932698](https://apps.apple.com/mx/app/gic-collect/id1485932698)
 
+# Version 1.0.27
+12/Jun/2020
+
+- Added more error handling in upload and download of data
+- Fixed markdown processing
+- Manage upload of multiple media files
+- Better handling of login to the different servers
+- More error reporting on downloading of forms
+- More error reporting on uploading of data and media
+- Upload full quality images to servers
+- Several more fixes and optimizations
+
+# Version 1.0.26
+12/May/2020
+
+- Improved memory usage while downloading new forms.
+- Reduced memory usage while entering data in forms.
+- Improved performance while entering data in forms in several cases.
+- Improved performance while downloading new forms.
+- Improved performance while processing csv files.
+- Fixed processing of csv files. Added more cases.
+- Fixed navigation while going backward thorugh the forms.
+- Improved performance of calculations and constraints.
+- Reduced memory usage during calculations and constraints.
+- Fixed memory leaks while downloading new forms.
+- Fixed cascading selects while in field-list
+- Fixed login to some servers. 
+- Several more bug fixes and optimizations
+
+# Version 1.0.21
+10/Apr/2020
+
+- Added multi language management in forms
+- Added endswith y startswith en appearance search
+- Fixes to minimal appearance
+- Change login to settings screen and notify more things to user
+- Improve performance of outline screen
+- Better handling of errors in csv files
+- Better handling and notification of errors in xml form files
+- Better handling of dark mode
+- Give the user the option to send us xml files that cause problems
+- Several more bug fixes and optimizations
+
 # Version 1.0.20
 
 18/Mar/2020
@@ -111,4 +154,6 @@ Keep informed of our news about the app and special offers
 [Contact us](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html)
 [Privacy Policy](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Privacy-Policy.html)
 [Training Course](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20for%20IOS%20Compatible%20with%20ODK%20Training%20Course.html)
+[Manual (English)](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEnglish/ManualGICCollectEnglish.html)
+[Manual (Español)](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GICCollectManualEspanol/ManualGICCollectEspanol.html)
 
