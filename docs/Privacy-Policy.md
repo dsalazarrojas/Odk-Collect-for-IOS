@@ -8,6 +8,10 @@ Your privacy is critically important to us. At GIC, we have a few fundamental pr
 
 Below is our Privacy Policy, which incorporates and clarifies these principles.
 
+# Google API Services User Data Policy (GIC Collect)
+
+GIC Collect use of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.
+
 ### Who We Are and What This Policy Covers
 
 Howdy! We are the folks behind a variety of products and services designed to allow anyone -- from bloggers, to photographers, small business owners, and enterprises -– take full advantage of the power and promise of surveys. This Privacy Policy applies to information that we collect about you when you use:
