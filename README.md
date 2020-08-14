@@ -78,6 +78,10 @@ We can help you with:
 
 We are a company with experience making changes to existing surveys, developing new ones and making changes to the android version and will be able to also make changes to the ios version as well. Let us know if you need any custom work or functions on either of those two platforms. We will be happy to help you. Contact us at [collect@gic.mx](mailto:collect@gic.mx) for anything related to customizations to the gic collect or odk collect versions.
 
+# Google API Services User Data Policy (GIC Collect)
+
+GIC Collect use of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.
+
 [What's new](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/What's%20new.html)
 [All current features](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20features.html)
 [Contact us](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/Contact-Us.html)
