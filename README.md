@@ -6,6 +6,14 @@ This is our port of the open data kit collect for IOS. Most of the functions are
 
 Please let us know of any bugs you find when you test your forms. Also please send us your test cases that failed. We will try to address all the major issues and the issues that affect more as soon as time allows. Please add an issue on this repository including your test files if possible. We will be happy to solve issues [collect@gic.mx](mailto:collect@gic.mx) if you wish to discuss your specific needs. Also contact me to be notified of the latest version so you can test every new version we release at [collect@gic.mx](mailto:collect@gic.mx)
 
+# GIC Collect
+
+GIC Collect is an iPhone app used in survey-based data gathering. Works without network connectivity and manages a very large range of question and answer types.
+
+GIC Collect shows the surveys as a sequence of questions that apply survey logic, question constraints and sub-structures that may repeat. Users work through the questions and can save their work at any point. When the user finalizes the survey it can be send to a server. The user can also download a new form to make a new survey.
+
+GIC Collect supports multimedia answers and questions via gps, images, audio, video, barcodes, signature, multiple-choice, free-text and numeric types. 
+
 # Objectives
 
 - Large compatibility of forms with ODK Collect
@@ -81,6 +89,24 @@ We are a company with experience making changes to existing surveys, developing 
 # Google API Services User Data Policy (GIC Collect)
 
 GIC Collect use of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.
+
+WHAT TYPE OF DATA DO WE CONTROL AND PROCESS?
+This data privacy policy distinguishes between data that in controlled by GIC Collect and data that is processed by GIC Collect.
+GIC Collect is:
+* A data controller of very limited data about site visitors and account holders (i.e. we determine the purposes, conditions and means of the processing of personal data). GIC Collect collects application analytics from users of its application using Flurry – clicks, language choice, country of origin and so on. GIC Collect does not use any information of registered users. 
+* A data processor of data collected by account holders (i.e. processes data on behalf of a data controller). Once alogins to a third party server designated by the user, we do not save any information of this, GIC Collect allows the user to download the survey (e.g. form) and multimedia data associated and allows the user to collect data using the application and submit the data to the third party server designated by the user. This includes data submitted by participants completing forms designed by registered users and can include personal information. 
+How do we use user data
+
+GIC Collect will use https://www.googleapis.com/auth/drive to search and read XML-formatted surveys (e.g. forms) and multimedia files (audio, images and video), and save multimedia files captured during data collection to the device; It will also use https://developers.google.com/sheets/ to submit the results of the data collection in Google Sheets. We do not receive any of this information. The user may delete the information from the device at any moment.
+
+HOW DO WE USE YOUR DATA?
+GIC Collect takes very seriously the privacy, confidentiality and security of personal information and any data collected or stored using GIC Collect.
+* Data that we control: Data under our control which includes site visitors data (app analytics) is used in aggregated ways to monitor usage and growth of GIC Collect. This enables us to report especially on humanitarian activities. Personal information from registered users is never used. We do not receive any personal data from the app users. Users can view, edit, and delete their personal information stored in their device, these are the forms, the data they collect using the forms and any multimedia associated.  
+* Data that we process: GIC Collect processes data on behalf of registered users who created a project and collected data. Users fully own their application data and GIC Collect does not use, share, or sell that information. Metadata about projects may be used in aggregated ways to analyze usage with the permission of the account holder. This metadata does not include personal information. 
+Users are the data controllers of the data they collect using GIC Collect and are responsible for the safe management of personal information, including compliance with the General Data Protection Regulation (GDPR). GIC Collect allows users to share application data publicly or with selected users. GIC Collect is not responsible for how registered users handle survey participants’ personal information. We may assist individual respondents in contacting registered users with regards to GDPR requests.
+
+HOW DO WE PROTECT YOUR DATA?
+GIC Collect is committed to protecting the data you entrust to us. We employ industry standard best practices (both technical and administrative) to protect against unauthorized access of your data. We cannot guarantee, however, its absolute security. To protect from loss of data, we recommend frequent system and incremental backups of your device which should stored encrypted in various locations. To further protect your data, we encourage you to never to share your login information and to change your passwords regularly. 
 
 [What's new](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/What's%20new.html)
 [All current features](https://dsalazarrojas.github.io/Odk-Collect-for-IOS/GIC%20Collect%20features.html)

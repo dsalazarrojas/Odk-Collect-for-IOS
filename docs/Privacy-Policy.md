@@ -12,6 +12,17 @@ Below is our Privacy Policy, which incorporates and clarifies these principles.
 
 GIC Collect use of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.
 
+How do we use user data
+
+GIC Collect will use https://www.googleapis.com/auth/drive to search and read XML-formatted surveys (e.g. forms) and multimedia files (audio, images and video), and save multimedia files captured during data collection to the device; It will also use https://developers.google.com/sheets/ to submit the results of the data collection in Google Sheets. We do not receive any of this information. The user may delete the information from the device at any moment.
+
+HOW DO WE USE YOUR DATA?
+GIC Collect takes very seriously the privacy, confidentiality and security of personal information and any data collected or stored using GIC Collect.
+* Data that we control: Data under our control which includes site visitors data (app analytics) is used in aggregated ways to monitor usage and growth of GIC Collect. This enables us to report especially on humanitarian activities. Personal information from registered users is never used. We do not receive any personal data from the app users. Users can view, edit, and delete their personal information stored in their device, these are the forms, the data they collect using the forms and any multimedia associated.  
+* Data that we process: GIC Collect processes data on behalf of registered users who created a project and collected data. Users fully own their application data and GIC Collect does not use, share, or sell that information. Metadata about projects may be used in aggregated ways to analyze usage with the permission of the account holder. This metadata does not include personal information. 
+Users are the data controllers of the data they collect using GIC Collect and are responsible for the safe management of personal information, including compliance with the General Data Protection Regulation (GDPR). GIC Collect allows users to share application data publicly or with selected users. GIC Collect is not responsible for how registered users handle survey participants’ personal information. We may assist individual respondents in contacting registered users with regards to GDPR requests.
+
+
 ### Who We Are and What This Policy Covers
 
 Howdy! We are the folks behind a variety of products and services designed to allow anyone -- from bloggers, to photographers, small business owners, and enterprises -– take full advantage of the power and promise of surveys. This Privacy Policy applies to information that we collect about you when you use:
