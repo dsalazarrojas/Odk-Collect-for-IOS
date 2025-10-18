@@ -1,2 +1,5 @@
 
 .DS_Store
+
+# Deployment script (keep local only)
+deploy.sh
